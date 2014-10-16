@@ -1,0 +1,28 @@
+10 DATA"Mini Shop"
+20 _MUSIC(0,0,1,1,1,1,1,1,1,1,1)
+30 _PITCH(443):_TEMPER(1):READ A$,A,A
+40 DATA 10,9
+50 READ A$,B$,C$,D$,E$,F$,G$,H$,I$:IF A$="RET" THEN 50 ELSE IFA$="*" THEN RESTORE60:GOTO 50 ELSE PLAY #2,A$,B$,C$,D$,E$,F$,G$,H$,I$:GOTO50
+60 DATA"RET","","","","","","","",""
+70 DATA"t120@10v15l8o5c<b>cd16ee16dc<b","t120@16v9l8o6c<b>cd16ee16dc<b","t120@12v7l16o5eeeeeeeeeeeeeeee","t120@12v7l16o4gggggggggggggggg","t120@12v7l16o5cccccccccccccccc","t120@33v13l8o4ccr16<g16a16>c16r16c16c16r16r16<g16a16b16"
+80 DATA"t120@6v12l8o5","t120@6v12l8o6","t120@6v12l8o5"
+90 DATA">c<b>cd16ee16e-dc",">c<b>cd16ee16e-dc","eeeeeeeeeeeeeeee","aaaaaaaaaaaaaaaa","cccccccccccccccc","aar16e16g16aag16r16f16r16e16","","",""
+100 DATA"d<a>cd16ff16edc","d<a>cd16ff16edc","ffffffffffffffff","aaaaaaaaaaaaaaaa","dddddddddddddddd","ddr16<a16>c16d16r16d16e16r16f16r16f+16r16","","",""
+110 DATA"d2.r16d16e16f16","d2.v13<r16b16>c16d16","ffffffffffffffff","gggggggggggggggg","dddddddddddddddd","ggr16d16f16g16r16g16a16r16b16r16g16r16","","",""
+120 DATA"gf+ga16gg16efg","ed+ef16ee16cde","eeeeeeeeeeeeeeee","gggggggggggggggg","cccccccccccccccc","c<gr16a16>c16c16r16c16<g16r16>c16r16<b16r16","","",""
+130 DATA"gf+ga16gg16efg","ed+ef16ee16cde","eeeeeeeeeeeeeeee","aaaaaaaaaaaaaaaa","cccccccccccccccc","aer16g16a16a16r16a16e16r16a16r16g16r16","","",""
+140 DATA"ag+ab16aa16fga","fefg16ff16def","ffffffffffffffff","aaaaaaaaaaaaaaaa","cccccccccccccccc","f>cr16f16g16f16r16f16d16r16e16r16f16r16","","",""
+150 DATA"b2.r16b16a16b16","g+2.r16e16f+16g+16","eeeeeeeeeeeeeeee","g+g+g+g+g+g+g+g+g+g+g+g+g+g+g+g+","<bbbbbbbbbbbbbbbb","e<br16>d16d16e16r16e16<b16r16>d16r16e16r16","","",""
+160 DATA">c+<ab>c+16ee16dc+<a","aeab16>c+c+16<bae","eeeeeeeeeeeeeeee","aaaaaaaaaaaaaaaa",">c+c+c+c+c+c+c+c+c+c+c+c+c+c+c+c+","aer16f+16a16a16r16a16e16r16a16r16g+16r16","","",""
+170 DATA">c+<ab>c+16ee16dc+<a","aeab16>c+c+16<bae","f+f+f+f+f+f+f+f+f+f+f+f+f+f+f+f+","aaaaaaaaaaaaaaaa","c+c+c+c+c+c+c+c+c+c+c+c+c+c+c+c+","f+c+r16e16f+16f+16r16f+16c+16r16f+16r16e16r16","","",""
+180 DATA">d<b>c+d16f+f+16edc+","bf+b>c+16dd16c+<ba","f+f+f+f+f+f+f+f+f+f+f+f+f+f+f+f+","bbbbbbbbbbbbbbbb","dddddddddddddddd","dar16>d16<a16>d16r16d16c+16r16d16r16d+16r16","","",""
+190 DATA"<b4.>c+8d2","g+4.a8b2","eeeeeeeeddddeeff","g+g+g+g+g+g+g+g+ggggggg","<bbbbbbbbbbbbbbbb","e<eff+ggab>","","",""
+200 DATA"o6c<b>cd16ee16dc<b","o7c<b>cd16ee16dc<b","eeeeeeeeeeeeeeee","gggggggggggggggg","cccccccccccccccc","ccr16<g16a16>c16r16c16c16r16r16<g16a16b16","r2r16o7l16q4cc<b>c8c8","r2r16o5q4l16cc<b>c8c8","r2r16o6q4l16gggg8g8"
+210 DATA">c<b>cd16ee16e-dc",">c<b>cd16ee16e-dc","eeeeeeeeeeeeeeee","aaaaaaaaaaaaaaaa","cccccccccccccccc","aar16e16g16aag16r16f16r16e16","r2r16cc<b>c8c8","r2r16cc<b>c8c8","r2r16eeee8e8"
+220 DATA"d<a>cd16ff16edc","d<a>cd16ff16edc","ffffffffffffffff","aaaaaaaaaaaaaaaa","dddddddddddddddd","ddr16<a16>c16d16r16d16e16r16f16r16f+16r16","r2r16ddc+d8d8","r2r16ddc+d8d8","r2r16aaaa8a8"
+230 DATA"d2.r16d16e16f16","d2.v13<r16b16>c16d16","ffffffffffffffff","gggggggggggggggg","dddddddddddddddd","ggr16d16f16g16r16g16a16r16b16r16g16r16","r2r16ggf+gv11@4o5gabq8","r2r16ggf+g@4v11o4b>cdq8","r2r16ddc+dv11q8"
+240 DATA"gf+ga16gg16efg","ed+ef16ee16cde","eeeeeeeeeeeeeeee","gggggggggggggggg","cccccccccccccccc","c<gr16a16>c16c16r16c16<g16r16>c16r16<b16r16","c2.d4","e1",""
+250 DATA"gf+ga16gg16efg","ed+ef16ee16cde","eeeeeeeeeeeeeeee","aaaaaaaaaaaaaaaa","cccccccccccccccc","aer16g16a16a16r16a16e16r16a16r16g16r16","e2.c4","a2<a4b8>c",""
+260 DATA"ag+ab16aa16fd<b","fefg16ff16d<bg","ffffffffffffffff","aaaaaaaagggggggg","cccccccc<bbbbbbbb","f>cr16f16g16f16r16g16d16r16g16r16g16r16","f2d2","d4e8f8g4g4",""
+270 DATA"o6c2.","o7e2.","eeeeeeeeeeeeeeee","gggggggggggggggg",">cccccccccccccccc",">c<gac16g16r16g16g16g16g16g16g16g16","o6c2.","o5c2.","@4o5g2."
+280 DATA *,*,*,*,*,*,*,*,*

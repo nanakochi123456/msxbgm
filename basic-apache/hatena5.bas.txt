@@ -1,0 +1,27 @@
+10 DATA"Wer!!"
+20 _MUSIC(0,0,1,1,1,1,1,1,1,1,1)
+30 _PITCH(443):_TEMPER(9):READA$,A,A
+40 DATA 2,7,"t120o5l4","t120o6l16","t120l16","t120l16","t120l16","t120o3l8","t120"
+50 READ A$,B$,C$,D$,E$,F$,G$:IF A$="RET"THEN50 ELSE IF A$="*" THEN RESTORE62:GOTO 50 ELSE PLAY #2,A$,B$,C$,D$,E$,F$,G$:GOTO50
+60 DATA"","","@63v15","@63v15","","",""
+61 DATA"","","y0,97y1,98y2,12y3,61y4,212y5,144y6,247y7,247","","","",""
+62 DATA"RET","","","","","",""
+70 DATA"t120v15@48o4l16d8ddd8ddd8ddd8dd","t120v15@24o3l16d8ddd8ddd8ddd8dd","","","","",""
+80 DATA"@48v15o4l16d8ddd8ddd8ddd8ddd8ddd8ddd8ddd8dd","@24o3v15l16d8ddd8ddd8ddd8ddd8ddd8ddd8ddd8dd","v15o6l16defga2>d4l4y4,210c+.y18,60@w4.y18,113@w4","v14o5l16defga2>d4l4c+.y19,60@w4.y19,113@w4","","",""
+90 DATA"d8ddd8ddd8ddd8ddd8ddd8ddd8ddd8dd","d8ddd8ddd8ddd8ddd8ddd8ddd8ddd8dd","c.y18,40@w4.y18,91@w4<b.y18,25@w4.y4,212a8f8","c.y19,40@w4.y19,91@w4<b.y19,25@w4.a8f8","","",""
+100 DATA"d8ddd8ddd8ddd8dd<b-8b-b-b-8b-b-b-8b-b-b-8b-b-","d8ddd8ddd8ddd8dd<b-8b-b-b-8b-b-b-8b-b-b-8b-b-","l16defga-2a4b-1","l16defga-2a4b-1","","",""
+110 DATA">d8ddd8ddd8ddd8ddd8ddd8ddd8ddd8dd",">d8ddd8ddd8ddd8ddd8ddd8ddd8ddd8dd","y4,210a1&a1","a1&a1","@23o7v12l32afdfafdfafdfafdfafdfafdfafdfafdfafdfafdfafdfafdfafd<afd<afdfa>dfa<da","",""
+120 DATA"o4l16d8ddd8ddd8ddd8dd","o3l16d8ddd8ddd8ddd8dd"
+121 DATA">d4.@w32y50,113y18,130@w32y18,120@w32y18,110@w32y50,115y18,100@w32y18,90@w32y18,80@w32y18,70@w32y50,117y18,60@w32y18,50@w32y50,118y18,40@w32y50,119y18,30@w32y50,120y18,20@w32y50,121y18,10@w32y50,122y18,0"
+122 DATA">d4..@w32y51,113y19,130@w32y19,120@w32y19,110@w32y51,115y19,100@w32y19,90@w32y19,80@w32y19,70@w32y51,117y19,60@w32y19,50@w32y51,118y19,40@w32y51,119y19,30@w32y51,120y19,20@w32y51,121y19,10@w32y51,122y19,0"
+123 DATA"o8d<afd<afd<afa>dfa>dfad2","",""
+130 DATA"o4l16d8ddd8ddd8ddd8ddd8ddd8ddd8ddd8dd","o3l16d8ddd8ddd8ddd8ddd8ddd8ddd8ddd8dd","y50,1o6l16y4,212defga2>d4l4y4,210c+.y18,60@w4.y18,113@w4","y51,1o5l16defga2>d4l4c+.y19,60@w4.y19,113@w4","","",""
+140 DATA"d8ddd8ddd8ddd8ddd8ddd8ddd8ddd8dd","d8ddd8ddd8ddd8ddd8ddd8ddd8ddd8dd","c.y18,40@w4.y18,91@w4<b.y18,25@w4.y4,212a8f8","c.y19,40@w4.y19,91@w4<b.y19,25@w4.a8f8","","",""
+150 DATA"d8ddd8ddd8ddd8ddg8ggg8ggg8ggg8gg","d8ddd8ddd8ddd8ddg8ggg8ggg8ggg8gg","l16defga-2a8a+8b2.","l16defga-2a8a+8b2.","","",""
+160 DATA"g8ggg8ggg8ggg8ggg8ggg8ggg8ggg8gg","g8ggg8ggg8ggg8ggg8ggg8ggg8ggg8gg","o5l4g.>d.gf+.d.f+","o4l4g.>d.gf+.d.f+","@6v12o5l4g-.>d-.g-f.d-.f","@6v10o4l4g-.>d-.g-f.d-.f",""
+170 DATA"g8ggg8ggg8ggg8ggg8ggg8ggg8ggg8gg","g8ggg8ggg8ggg8ggg8ggg8ggg8ggg8gg","f.d-.fe.c.e-","f.d-.fe.c.e-","f-.c.f-e-.<b.>d","f-.c.f-e-.<b.>d",""
+180 DATA"<g4g4g4r16g16r16g16","<g4g4g4r16g16r16g16","d2.>r16g16r16g16","d2.>r16b-16r16b-16","d-2.r16d16r16d16","d-2.<r16b-16r16b-16","r2.@6o5r16g16r16g16"
+190 DATA"a8aaa8aaa8aaa8aaa8aaa8aaa8aaa8aa","a8aaa8aaa8aaa8aaa8aaa8aaa8aaa8aa","o5l4a.>e.ag+.e.g+","o4l4a.>e.ag+.e.g+","@6v12o4l4a-.>e-.a-g.e-.g","@6v10o4l4a-.>e-.a-g.e-.g",""
+200 DATA"a8aaa8aaa8aaa8aaa8aaa8aaa8aaa8aa","a8aaa8aaa8aaa8aaa8aaa8aaa8aaa8aa","g.e-.gf+.d.f","g.e-.gf+.d.f","g-.d.g-f.c+.e","g-.d.g-f.c+.e",""
+210 DATA"a4a4a4r16a16r16a16","a4a4a4r16a16r16a16","e2.>r16a16r16a16","e2.>r16c+16r16c+16","e-2.r16e16r16d16","e-2.r16c+16r16c+16","r2.@6o5r16a16r16a16"
+220 DATA *,*,*,*,*,*,*

@@ -1,0 +1,20 @@
+10  DATA"Give Me A Cup Of Water."
+20 _MUSIC(0,0,1,1,1,1,1,1,1,1,1)
+30 _PITCH(440):_TEMPER(9):READA$,A,A
+40 DATA 19,7,"v14@14t120o4l8","v14@14t120o4l8","v7@9t120l4","v7@9t120l4","v7@9t120l4","v13@9t120l4",""
+50 READ A$,B$,C$,D$,E$,F$,G$:IF A$="RET" THEN 50 ELSE IF A$="*" THEN RESTORE100:GOTO 50 ELSE PLAY #2,A$,B$,C$,D$,E$,F$,G$:GOTO50
+60 DATA"@14l8o4g>r8gr8b->r8dr8cr8<b-r8ar8gr8b-r8a-4.r8f+8.r16","@14l8o5r8dr8ar8>cr8e-r8dr8<gr8b-r8ar8e-r4.gr4","","","","",""
+70 DATA"o5r8dr8c<r8ar8gr8b>r8d","o5gr8e-r8<b-r8br8ar8>cr8","","","","",""
+80 DATA"o5l8r8f+r8b-r8gr8fr8ar8>c","o5l8e-r8gr8ar8ar8gr8b-r8>","o5@9e-2e4f2.","o5@9c2c4c2.","o4@9g2g4a2.","",""
+90 DATA"r8<b->r8dr8cr4.c8<r8","dr8cr8e-r8<b-4.r8a","f4g2g2f+4","d4e-2d2d4","b-4>c2<b-2a4","",""
+100 DATA"RET","","","","","",""
+110 DATA"gr8gr8b-r8>dr8f+r8fr8e-r8e-r8gr8dr8dr8gr8cr8cr8f+r8<b-r8ar8gr8","r8dr8ar8>cr8gr8gr8dr8dr8cr8e-r8cr8<b->r8dr8<b-r8ar8>cr8c<r8b-r8","l4g2f+g2gg2gg2gf+2f+g2.","l4d2dd2de-2e-d2dd2dd2.","b-2ab-2b>c2c<b-2b-a2ab-2.","o3g2ab-2b>c2c<b-2b-a2ag2.",""
+120 DATA"fr8fr8ar8>dr8dr8fr8e-r8e-r8gr8f4.r8dr8","r8cr8gr8>cr8cr8<b->r8dr8dr8cr8e-r4.e-8r4","f2e-d2de-2e-d2.","c2cb-2b-b-2b-b-2.","a2ab-2b-b-2b-b-2.","f2ab-2>de-2e-d2.",""
+130 DATA"gr8gr8b-r8fr8fr8b-r8er8er8dr8fr8dr8<b-r8","r8f+r8e-r8gr8er8dr8fr8dr8cr8er8e-r8c<r8a","e-2e-d2de2ef2e-","b-2b-b-2b-c2b-a2.","g2gf2fg2gf2.","e-2e-d2dc2ef2.",""
+140 DATA"b-r8b->r8dr8gr8ar8gr8fr8ar8fr8e-r8ar8e-r8f4.e-d.r16","r8fr8>cr8fr8b-r8b-r8e-r8b-r8b-r8dr8b-r8b-r8gd4.c<b-.r16","d2de-2e-d2dc2cd2.","b-2b-b-2b-b-2b-a2ab-2.","f2fg2gf2ff2ff2.","<b-2>de-2e-d2dc2c<b-2.",""
+150 DATA"e-r8e-r8fr8dr8d<r8g4r8gr8dr8f+",">r8dr8gr8e-r8c+r8<b-r4ar8ar8er8","e-2e-d2.d2c",">c2c<b-2.>c<b-a","g2gg2.f+2.",">e-2e-d2.<def+",""
+160 DATA"gr8gr8b->r8dr8cr8<b-r8ar8gr8b-r8a-4.r8f+8.r16","r8dr8ar8>cr8e-r8dr8<gr8b-r8ar8e-r4.gr4","o5g2f+g2gg2ga-2.","o5d2dd2de-2e-e-2.","o4b-2ab-2b->c2<b-a-2.","g2ab-2b->c2<b-a-2.",""
+170 DATA"o5r8dr8c<r8ar8gr8b>r8d","o5gr8e-r8<b-r8br8ar8>cr8","g2f+g2f","d2dd2d","<b-2ab2b","b-2agab",""
+180 DATA"o5l8r8f+r8b-r8gr8fr8ar8>c","o5l8e-r8gr8ar8ar8gr8b-r8>","o5@9e-2e4f2.","o5@9c2c4c2.","o4@9g2g4a2.",">c2cf2.<",""
+190 DATA"r8<b->r8dr8cr4.c8<r8","dr8cr8e-r8<b-4.r8a","f4g2g2f+4","d4e-2d2d4","b-4>c2<b-2a4","b-e-2d2.",""
+200 DATA *,*,*,*,*,*,*

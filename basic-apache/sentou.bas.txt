@@ -1,0 +1,103 @@
+10 DATA"Don't Die!!"
+20 _MUSIC(0,0,1,1,1,1,1,1,1,1,1)
+30 _PITCH(440):_TEMPER(19):RESTORE40:READA,A
+40 DATA 3,9,"o7l4q4t240","t240o4l4","q4t240","q4t240","q4t240","t240q4l4","t240o4l8","t240q8l4","t240q8l4"
+50 READ A$,B$,C$,D$,E$,F$,G$,H$,I$:IF A$="RET"THEN50 ELSE IF A$="*" THEN RESTORE61:GOTO 50 ELSE PLAY #2,A$,B$,C$,D$,E$,F$,G$,H$,I$:GOTO50
+60 DATA"","","","","","@63v15y0,47y1,39y2,29y3,15y4,247y5,248y6,0y7,254","","",""
+61 DATA"RET","","","","","","","",""
+70 DATA"@16o5l3v14g1.&g2&g6.g12r12g12f6","@16l3o5v14e-1.&e-2&e-6.e-12r12e-12d6","@16l3o5v14c1.&c2&c6.c12r12c12<b-6"
+80 DATA"@12o3v15l6q4ce-d<b-12>c12r12c12e-d<b->ce-d<b-12>c12r12c12e-d<b->","@12o3v15l6q4ce-d<b-12>c12r12c12e-d<b->ce-d<b-12>c12r12c12e-d<b->","o5l6v15c.c.cr6ccr6c.c.cr6cc","","",""
+90 DATA"l3o5g1.&g2&g6.g12r12g12f6","l3o5e-1.&e-2&e-6.e-12r12e-12d6","l3o5c1.&c2&c6.c12r12c12<b-6"
+100 DATA"o3ce-d<b-12>c12r12c12e-d<b->ce-d<b-12>c12r12c12e-d<b->","o3ce-d<b-12>c12r12c12e-d<b->ce-d<b-12>c12r12c12e-d<b->","v13c.c.cr6ccr6c.c.cr6cc","","",""
+110 DATA"o5l3v14g1.&g2&g6.g12r12g12g6","l3o5v14e-1.&e-2&e-6.e-12r12e-12e-6","l3o5v14c1.&c2&c6.c12r12c12c6"
+120 DATA"o3v15l6q4ce-d<b-12>c12r12c12e-d<b->ce-d<b-12>c12r12c12e-dc","o3v15l6q4ce-d<b-12>c12r12c12e-d<b->ce-d<b-12>c12r12c12e-dc","l6c.c.cr6ccr6c.c.cr6cc"
+130 DATA"v15@24o6l3g.c6c1&c3cg","v15@24o5l3g.c6c1&c3cg",""
+140 DATA"f1.&f2&f6.f12r12f12f6","d1.&d2&d6.d12r12d12d6","<b-1.&b-2&b-6.b-12r12b-12b-6"
+150 DATA"<b->dc<a-12b-12r12b-12>dc<a-b->dc<a-12b-12r12b-12>dc<b-","<b->dc<a-12b-12r12b-12>dc<a-b->dc<a-12b-12r12b-12>dc<b-","c.c.cr6ccr6c.c.cr6cc"
+160 DATA"f.<b-6b-1&b-3b->f","f.<b-6b-1&b-3b->f",""
+170 DATA"g1.&g2&g6.g12r12g12g6","e-1.&e-2&e-6.e-12r12e-12e-6","o5c1.&c2&c6.c12r12c12c6"
+180 DATA"o3ce-d<b-12>c12r12c12e-d<b->ce-d<b-12>c12r12c12e-dc","o3ce-d<b-12>c12r12c12e-d<b->ce-d<b-12>c12r12c12e-dc","c.c.cr6ccr6c.c.cr6cc"
+190 DATA"o6l3g.c6c1&c3ga","o5l3g.c6c1&c3ga",""
+200 DATA"f1.&f2&f6.f12r12f12f6","d1.&d2&d6.d12r12d12d6","<b-1.&b-2&b-6.b-12r12b-12b-6"
+210 DATA"<b->dc<a-12b-12r12b-12>dc<a-l12b->b-b-b-<b->b-b-b-<b->b-b-b-<b->b-b-b-l6","<b->dc<a-12b-12r12b-12>dc<a-l12b->b-b-b-<b->b-b-b-<b->b-b-b-<b->b-b-b-l6","c.c.cr6ccr6c.c.cr6cc12c12"
+220 DATA"b-1&b-3l12r12o5@48b->cdr12cde-r12de-fr12ga->cl3<","r1r3l12o5v15@6r12b->cdr12cde-r12de-fr12ga->cl3","r1r3l12@6v15o4r12b->cdr12cde-r12de-fr12ga->cl3l3"
+230 DATA"@16o5l3v14b-1.&b-2&b-6.b-12r12b-12b-6","@16l3o5v14g1.&g2&g6.g12r12g12g6","@16l3o5v14e-1.&e-2&e-6.e-12r12e-12e-6"
+240 DATA"@12o3v15l6q4e-gfd-12e-12r12e-12gfde-gfd12e-12r12e-12gfe-","@12o3v15l6q4e-gfd12e-12r12e-12gfde-gfd-12e-12r12e-12gfe-","o5l6v13c.c.cr6ccr6c.c.cr6cc"
+250 DATA"v15@24o6l3b-.e-6e-1&e-3e-b-","v15@24o5l3b-.e-6e-1&e-3e-b-",""
+260 DATA"o5l3a-1.&a-2&a-6.a-12r12a-12a-6","l3o5f1.&f2&f6.f12r12f12f6","l3o5d-1.&d-2&d-6.d-12r12d-12d-6"
+270 DATA"o3l6q4d-fe-c12d-12r12d-12fe-cd-fe-c12d-12r12d-12fed-","o3l6q4d-fe-c12d-12r12d-12fe-cd-fe-c12d-12r12d-12fe-d-","o5l6c.c.cr6ccr6c.c.cr6cc"
+280 DATA"a-.d-6d-1&d-3d-a-","a-.d-6d-1&d-3d-a-",""
+290 DATA"b-1.&b-2&b-6.b-12r12b-12b-6","g1.&g2&g6.g12r12g12g6","o5e-1.&e-2&e-6.e-12r12e-12e-6"
+300 DATA"o3e-gfd-12e-12r12e-12gfde-gfd12e-12r12e-12gfe-","o3e-gfd12e-12r12e-12gfde-gfd-12e-12r12e-12gfe-","c.c.cr6ccr6c.c.cr6cc"
+310 DATA"o6l3b-.e-6e-1&e-3b->c","o5l3b-.e-6e-1&e-3b->c",""
+320 DATA">c3&c3r12c12r12c12r12c12c6","a-3&a-3r12a-12r12a-12r12a-12a-6","e-3&e-3r12e-12r12e-12r12e-12e-6"
+330 DATA"<l12a-6>a-a-<a-6>a-a-<a-6>a-a-<a-6>a-a-","<l12a-6>a-a-<a-6>a-a-<a-6>a-a-<a-6>a-a-","c.c.c.r6cc"
+340 DATA"c1&c3","c1&c3",""
+350 DATA">d3&d3r12d12r12d12r12d12d6","b-3&b-3r12b-12r12b-12r12b-12b-6","f3&f3r12f12r12f12r12f12f6"
+360 DATA"<l12b-6>b-b-<b-6>b-b-<b-6>b-b-<b-6>b-b-","<l12b-6>b-b-<b-b>b-b-<b-6>b-b-<b-6>b-b-","c.c.cr6cc"
+370 DATA"d1&d3","d1&d3",""
+380 DATA">e-3&e-3r12e-12r12e-12r12e-12e-6","b-3&b-3r12b-12r12b-12r12b-12b-6","g3&g3r12g12r12g12r12g12g6"
+390 DATA"<l12e-6>e-e-<e-6>e-e-<e-6>e-e-<e-6>e-e-","<l12e-6>e-e-<e-e>e-e-<e-6>e-e-<e-6>e-e-","c.c.cr6cc"
+400 DATA"e-1v14e-12v13e-12v12e-12v11e-12","e-1v14e-12v13e-12v12e-12v11e-12",""
+410 DATA"e-3&e-3r12e-12r12e-12r12e-12d6","b-3&b-3r12b-12r12b-12r12b-12b6","g3&g3r12g12r12g12r12g12g6"
+420 DATA"<l12e-6>e-e-<e-6>e-e-<e-6>e-e-<g3","<l12e-6>e-e-<e-6>e-e-<e-6>e-e-<g3","c.c.cr6cc"
+430 DATA"v10e-12v9e-12v8e-12v7e-12v6e-12v5e-12v4e-12v3e-12v2e-12v1e-12v0e-12","v10e-12v9e-12v8e-12v7e-12v6e-12v5e-12v4e-12v3e-12v2e-12v1e-12v0e-12",""
+440 DATA"@16o5l3v14g1.&g2&g6.g12r12g12g6","@16l3o5v14e-1.&e-2&e-6.e-12r12e-12e-6","@16l3o5v14c1.&c2&c6.c12r12c12c6"
+450 DATA"@12o3v15l6q4ce-d<b-12>c12r12c12e-d<b->ce-d<b-12>c12r12c12e-dc","@12o3v15l6q4ce-d<b-12>c12r12c12e-d<b->ce-d<b-12>c12r12c12e-dc","l6v13c.c.cr6ccr6c.c.cr6cc"
+460 DATA"v15@24o6l3g.c6c1&c3cg","v15@24o5l3g.c6c1&c3cg","@23v9o7q8l12ge-ce-ge-cgc<ge-g>c<ge-g>c<ge-g>c<ge-g>c<g>ce-ge-cg"
+470 DATA"f1.&f2&f6.f12r12f12f6","d1.&d2&d6.d12r12d12d6","<b-1.&b-2&b-6.b-12r12b-12b-6"
+480 DATA"<b->dc<a-12b-12r12b-12>dc<a-b->dc<a-12b-12r12b-12>dc<b-","<b->dc<a-12b-12r12b-12>dc<a-b->dc<a-12b-12r12b-12>dc<b-","c.c.cr6ccr6c.c.cr6cc"
+490 DATA"f.<b-6b-1&b-3b->f","f.<b-6b-1&b-3b->f","fd<b->dfd<b->f<b-fdfb-fdfb-fdfb-fdfb-fdfb-f>df"
+500 DATA"g1.&g2&g6.g12r12g12g6","e-1.&e-2&e-6.e-12r12e-12e-6","o5c1.&c2&c6.c12r12c12c6"
+510 DATA"o3ce-d<b-12>c12r12c12e-d<b->ce-d<b-12>c12r12c12e-dc","o3ce-d<b-12>c12r12c12e-d<b->ce-d<b-12>c12r12c12e-dc","c.c.cr6ccr6c.c.cr6cc"
+520 DATA"o6l3g.c6c1&c3ga","o5l3g.c6c1&c3ga","ge-ce-ge-cgc<ge-g>c<ge-g>c<ge-g>c<ge->cge-ce-ae-ca"
+530 DATA"f1.&f2&f6.f12r12f12f6","d1.&d2&d6.d12r12d12d6","<b-1.&b-2&b-6.b-12r12b-12b-6"
+540 DATA"<b->dc<a-12b-12r12b-12>dc<a-l12b->b-b-b-<b->b-b-b-<b->b-b-b-<b->b-b-b-l6","<b->dc<a-12b-12r12b-12>dc<a-l12b->b-b-b-<b->b-b-b-<b->b-b-b-<b->b-b-b-l6","c.c.cr6ccr6c.c.cr6cc12c12"
+550 DATA"b-1&b-3l12r12o5@48b->cdr12cde-r12de-fr12ga->cl3<","r1r3l12o5@6r12b->cdr12cde-r12de-fr12ga->cl3","b-fdfb-fdfb-fdfb-fdcv15l12@6o4r12b->cdr12cde-r12de-fr12ga->cl3l3"
+560 DATA"@16o5l3v14b-1.&b-2&b-6.b-12r12b-12b-6","@16l3o5v14g1.&g2&g6.g12r12g12g6","@16l3o5v14e-1.&e-2&e-6.e-12r12e-12e-6"
+570 DATA"@12o3v15l6q4e-gfd-12e-12r12e-12gfde-gfd12e-12r12e-12gfe-","@12o3v15l6q4e-gfd12e-12r12e-12gfde-gfd-12e-12r12e-12gfe-","l6v13c.c.cr6ccr6c.c.cr6cc"
+580 DATA"v15@24o6l3b-.e-6e-1&e-3e-b-","v15@24o5l3b-.e-6e-1&e-3e-b-","@23v9o7q8l12b-ge-gb-ge-b-e-<b-gb->e-<b-gb->e-<b-gb->e-<b-gb->e-<b->e-gb-ge-g"
+590 DATA"o5l3v14a-1.&a-2&a-6.a-12r12a-12a-6","l3o5v14f1.&f2&f6.f12r12f12f6","l3o5v14d-1.&d-2&d-6.d-12r12d-12d-6"
+600 DATA"o3v15l6q4d-fe-c12d-12r12d-12fe-cd-fe-c12d-12r12d-12fed-","o3v15l6q4d-fe-c12d-12r12d-12fe-cd-fe-c12d-12r12d-12fe-d-","l6v13c.c.cr6ccr6c.c.cr6cc"
+610 DATA"a-.d-6d-1&d-3d-a-","a-.d-6d-1&d-3d-a-","a-fd-fa-fd-a-d-<a-fa->d-<a-fa->d-<a-fa->d-<a-fa->d-<a->d-fa-fd-a-"
+620 DATA"b-1.&b-2&b-6.b-12r12b-12b-6","g1.&g2&g6.g12r12g12g6","o5e-1.&e-2&e-6.e-12r12e-12e-6"
+630 DATA"o3e-gfd-12e-12r12e-12gfde-gfd12e-12r12e-12gfe-","o3e-gfd12e-12r12e-12gfde-gfd-12e-12r12e-12gfe-","c.c.cr6ccr6c.c.cr6cc"
+640 DATA"o6l3b-.e-6e-1&e-3b->c","o5l3b-.e-6e-1&e-3b->c","b-ge-gb-ge-b-e-<b-gb->e-<b-gb->e-<b-gb->e-<b-gb->e-<b->e-gb-ge-b-"
+650 DATA">c3&c3r12c12r12c12r12c12c6","a-3&a-3r12a-12r12a-12r12a-12a-6","e-3&e-3r12e-12r12e-12r12e-12e-6"
+660 DATA"<l12a-6>a-a-<a-6>a-a-<a-6>a-a-<a-6>a-a-","<l12a-6>a-a-<a-6>a-a-<a-6>a-a-<a-6>a-a-","c.c.c.r6cc"
+670 DATA"c1&c3","c1&c3",">c<a-e-a->c<a-e-a->c<a-e-a->c<a-e->c"
+680 DATA">d3&d3r12d12r12d12r12d12d6","b-3&b-3r12b-12r12b-12r12b-12b-6","f3&f3r12f12r12f12r12f12f6"
+690 DATA"<l12b-6>b-b-<b-6>b-b-<b-6>b-b-<b-6>b-b-","<l12b-6>b-b-<b-b>b-b-<b-6>b-b-<b-6>b-b-","c.c.cr6cc"
+700 DATA"d1&d3","d1&d3","d<b-fb->d<b-fb->d<b-fb->d<b-f>d"
+710 DATA">e-3&e-3r12e-12r12e-12r12e-12e-6","b-3&b-3r12b-12r12b-12r12b-12b-6","g3&g3r12g12r12g12r12g12g6"
+720 DATA"<l12e-6>e-e-<e-6>e-e-<e-6>e-e-<e-6>e-e-","<l12e-6>e-e-<e-e>e-e-<e-6>e-e-<e-6>e-e-","c.c.cr6cc"
+730 DATA"e-1v14e-12v13e-12v12e-12v11e-12","e-1v14e-12v13e-12v12e-12v11e-12","e-<b-ge-<b-ge-<b-gb->e-gb-"
+740 DATA"e-3&e-3r12e-12r12e-12r12e-12d6","b-3&b-3r12b-12r12b-12r12b-12b6","g3&g3r12g12r12g12r12g12g6"
+750 DATA"<l12e-6>e-e-<e-6>e-e-<e-6>e-e-<g3","<l12e-6>e-e-<e-6>e-e-<e-6>e-e-<g3","c.c.cr6cc"
+760 DATA"v10e-12v9e-12v8e-12v7e-12v6e-12v5e-12v4e-12v3e-12v2e-12v1e-12v0e-12","v10e-12v9e-12v8e-12v7e-12v6e-12v5e-12v4e-12v3e-12v2e-12v1e-12v0e-12",">e-<b-gb->e-<b-gb->e-v8e-v6e-v5e-v3e-v2e-v1e-v0e-"
+770 DATA *,*,*,*,*,*,*,*
+780 'CASTA VOICE DATA
+790 DIM T%(15):RESTORE 800:FORI=0TO15:READT$:T%(I)=VAL("&H"+T$):NEXT:_VOICECOPY(T%,@63):ERASE T%:RETURN
+800 DATA 4143,5453,2041,2020,0C00,000E,0000,0000,1D1F,F4F0,0000,0000,0017,7EF7,0000,0000
+810 '         TONE NAME
+820 DATA "CASTA   "
+830 '      TRANSPOSE(0~?)
+840 DATA 12
+850 '------ MODURATER ------
+860 '    TL(0~63),FB(0~7)
+870 DATA 29,7
+880 '    TRM VIB ENV KSR (0:ON 1:OFF)
+890 DATA   0,  0,  0,  1
+900 '    MUL(0~15), KSL(0~3)
+910 DATA 15,0
+920 '    AT DE SU RE (0~15)
+930 DATA 15, 0,15, 4
+940 '------ CARRIER ------
+950 '    TRM VIB ENV KSR (0:ON 1:OFF)
+960 DATA   0,  0,  0,  1
+970 '    MUL(0~15), KSL(0~3)
+980 DATA 7,0
+990 '    AT DE SU RE (0~15)
+1000 DATA 15, 7, 7,14
+1010 DATA *,*,*,*,*,*,*
+10000 PLAY#2,"@63y0,47y1,39y2,29y3,7y4,240y5,248y6,244y7,126o4c"

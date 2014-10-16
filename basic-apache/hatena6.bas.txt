@@ -1,0 +1,16 @@
+0 DATA"Be Ambitious"
+10 _MUSIC(0,0,1,1,1,1,1,1,1,1,1)
+11 _PITCH(443):_TEMPER(0):READ A$,A,A
+20 DATA 4,7
+30 READ A$,B$,C$,D$,E$,F$,G$,G$,I$:IF A$="RET" THEN 30 ELSE IF A$="*" THEN RESTORE 100 :GOTO 30 ELSE PLAY#2,A$,B$,C$,D$,E$,F$,G$,H$,I$:GOTO 30
+100 DATA"RET","","","","","","","",""
+101 DATA"t120@16v15l8o5r8r16f+16g8&gfe-d4.&de-dc4.<b>cd<g4.","t120@33o3l4v11c.e-.d.f.e-.g.f+.d.","t120","t120l8","t120l8","t120l8","t120l8","t120l8","t120"
+110 DATA"o5r8r16f+16g&gf+gb-4.&b-aa-g1","c.e-.d.f.e-.g.f+.d.","","","","","","",""
+120 DATA"o5r8r16f+16g8&gfe-d4.&de-dc4.<b>cd<g2.","c.e-.d.f.e-.g.f+.d.","","","","","","",""
+130 DATA"o5r8r16f+16g&gf+g>c4.&c4<b-a-4.&a-ab-a-gfd12y16,157@w12y16,207@w12y16,235@w12","c.d.e-.e.f.e-.d.d-.","","","","","","",""
+140 DATA"o5r8r16f+16g8&gfe-d4.&de-dc4.<b>cd<g2.","c.e-.d.f.e-.g.f+.d.","@3l8v8r2.r2.r8r16o6b16>c2&c<bb-ab-b","","","","","",""
+150 DATA"o5r8r16f+16g8&b-2.&b-aa-g2.&g2.","c.e-.d.f.e-.g.f+.d.","v8>c4r8@4o4e-2.&e-ff+gb->cd32e-16.<b>c<g4.g+aa+","","","","","",""
+160 DATA"r8r16f+16g&gfe-d4.&de-dc4.&c<b>cd&de-&e-f+g","c.e-.d.f.e-.g.f+.d.",">c8r8l8@10e-&e-f+gg32f+16.e-<a&ab>de-&e-f+f+32g16.b-b>c<e-ff+gc","","","","","",""
+170 DATA"o6c4.<b-b>c<a-32a16.b-agf+ga-32a16.a-gfd<a-&a-4.&a-b-b","e-4l8r8>b-b>c<a-32a16.b-agf+ga-32a16.a-gfd<a-&a-4.gd<g>","e-4.d-de-cdc<ba+b>c<bb-afdg4.<g4.>","","","","","",""
+180 DATA"c4.","l4c.e-.f.f+.g.<g.b-.b.>","e-4.","r2.@6r8r8o5cc<b->ce-&e-ce-ff+gf+g&gb->c","r2.@6r8r8o5ggfgb-&b-gb->cc+dc+d&dfg","r2.@6r8r8o6cc<b->ce-&e-ce-ff+gf+g&gb->c","r2.@6r8r8o6e-e-de-g&ge-gaa+ba+b&b>de-","r2.@6r8r8o7cc<b->ce-&e-ce-ff+gf+g&gb->c",""
+65529 DATA *,*,*,*,*,*,*,*,*

@@ -1,0 +1,23 @@
+10  DATA"Help Me!!"
+20 _MUSIC(0,0,1,1,1,1,1,1,1,1,1)
+30 _PITCH(443):_TEMPER(2):READ A$,A,A
+40 DATA 1,7,"v15@24t120o5l4","v15@16t120o6l16","v08@12t120l16","v08@12t120l16","v08@12t120l16","t120v15@24o3l8",""
+50 READ A$,B$,C$,D$,E$,F$,G$:IF A$="RET" THEN 50 ELSE IF A$="*" THEN RESTORE60:GOTO 50 ELSE PLAY #2,A$,B$,C$,D$,E$,F$,G$:GOTO50
+60 DATA"RET","","","","","",""
+70 DATA"o5l8g.c.gf.<b-.>fe-.<a-.>e-l16dc+de-r16fr16f+","v15@16l16o6c<b>ce-de-ge-<b-ab->dc+dfd<a-ga->c<b>ce-c<ba+b>cr16dr16d+","o5e-e-e-e-e-e-e-e-ddddddddcccccccc<ba+b>cr16dr16d+"
+80 DATA"o5cccccccc<b-b-b-b-b-b-b-b-a-a-a-a-a-a-a-a-ggggr16gr16g","o4ggggggggffffffffe-e-e-e-e-e-e-e-ddddr16dr16f","o3c.g.>c<b-.f.b-a-.e-.a-g.g16r16a16r16b16",""
+90 DATA"g8.c8.g8f8.<b-8.>e-16d16c1","o6c<b>ce-de-ge-<b-ab->dc+dfdc<b>ce-de-ge->c<ge-ge-c<ge-","e-e-e-e-e-e-e-e-dddddddde-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-"
+100 DATA">cccccccc<b-b-b-b-b-b-b-b->cccccccccccccccc","ggggggggffffffffgggggggggggggggg",">c.<g.>c<b-.f.<b->c.g.<g>c.g.<g>",""
+110 DATA"o6l8e-d16c16&c4.<e-g>e-dc16<b-16&b-2","@24o6l8c<g16e-16&e-4.ce->c<b-f16d16&d2","e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-dddddddddddddddd"
+120 DATA"cccccccccccccccc<b-b-b-b-b-b-b-b-b-b-b-b-b-b-b-b-","ggggggggggggggggffffffffffffffff","c.g.<g>c.g.<gb-.>f.<fb-.>f.<f",""
+130 DATA">c<b-16a-16&a-4.e-a->c<b-g16e-2.","a-e-16c16&c4.ce-a-ge-16<b-16&b-2.","e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-"
+140 DATA">cccccccccccccccc<b-b-b-b-b-b-b-b-b-b-b-b-b-b-b-b-","a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-gggggggggggggggg","a-.>e-.<e-a-.>e-.<a-g.>e-.<gg.>e-.<g",""
+150 DATA"o5a-f16d16&d4.dfa-ge-16c8&c2.r2e-2f2r4{gab>cd}4","o5fd16<b16&b4.b>dfe-c16<g8&g2.>d1&d4.e-16f16g2","dddddddddddddddde-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-ffffffffe-e-e-e-e-e-e-e-ddddddddffffffff"
+160 DATA"bbbbbbaagggaaabbccccccccccccccccddddddddcccccccc<bbbbbbbb>dddddddd","ffffffffffffffffggggggggggggggggffffffffffffffffgggggggggggggggg","f.>d.<fg.a.b>c.g.<g>c.g.<g>d.a-.<a->d.a-.dg4<g4a4b4>",""
+170 DATA"o6l8e-d16c16&c4.<e-g>e-dc16<b-16&b-2","@24o6l8c<g16e-16&e-4.ce->c<b-f16d16&d2","e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-dddddddddddddddd"
+180 DATA"cccccccccccccccc<b-b-b-b-b-b-b-b-b-b-b-b-b-b-b-b-","ggggggggggggggggffffffffffffffff","c.g.<g>c.g.<gb-.>f.<fb-.>f.<f",""
+190 DATA">c<b16>c16&c4.e-dc<b-g16e-2.","a-e-16c16&c4.ce-a-ge-16<b-16&b-2.","e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-"
+200 DATA">cccccccccccccccc<b-b-b-b-b-b-b-b-b-b-b-b-b-b-b-b-","a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-gggggggggggggggg","a-.>e-.<e-a-.>e-.<a-g.>e-.<gg.>e-.<g",""
+210 DATA"o5a-f16d16&d4.dfa-ge-16c8&c2.r2e-2f2g2","o5fd16<b16&b4.b>dfe-c16<g8&g2.>d1&d4.e-16f16r2","dddddddddddddddde-e-e-e-e-e-e-e-e-e-e-e-e-e-e-e-ffffffffe-e-e-e-e-e-e-e-ddddddddffffffff"
+220 DATA"bbbbbbaagggaaabbccccccccccccccccddddddddcccccccc<bbbbbbbb>dddddddd","ffffffffffffffffggggggggggggggggffffffffffffffffgggggggggggggggg","f.>d.<fg.a.b>c.g.<g>c.g.<g>d.a-.<a->d.a-.dg4<g4a4b4>",""
+230 DATA *,*,*,*,*,*,*
